@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 100%;
+        }
+        th {
+            background-color: #d2d2d2;
+            border: 1px solid white;
+        }
+        thead {
+            background-color: #fdaafd;
+            border: 1px solid white;
+        }
+        .disciplines {
+            background-color: #2b2929;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th class="disciplines">Disciplina</th>
+                <th>AV1</th>
+                <th>AV2</th>
+                <th>AV3</th>
+                <th>AVD</th>
+                <th>AVDS</th>
+                <th>NF</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td class="disciplines">Desenvolvimento Web</td>
+                <td>10,0</td>
+                <td>4,10</td>
+                <td>6,0</td>
+                <td>9,0</td>
+                <td>FALTOU</td>
+                <td>8,3</td>
+            </tr>
+            <tr>
+                <td class="disciplines">Estrutura de dados em C</td>
+                <td>9,0</td>
+                <td>8,0</td>
+                <td>7,0</td>
+                <td>9,0</td>
+                <td>8,0</td>
+                <td>7,0</td>
+
+            </tr>
+            <tr>
+                <td class="disciplines">Matemática e lógica</td>
+                <td>10,0</td>
+                <td>10,0</td>
+                <td>10,0</td>
+                <td>10,0</td>
+                <td>10,0</td>
+                <td>10,0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
